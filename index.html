@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- -----------------Home--------------------------------------------- -->
+
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav id="navbar">
+                    <h1 id="logo">Sagar.in</h1>
+                    <ul class="menu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#my-works">My works</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </nav>
+                <div class="text-box">
+                    <p>Hi, I'M</p>
+                    <h1>Sagar</h1>
+                    <h3>I design a beautiful functional websites</h3>
+                    <button class="btn"><a href="#about">Explore my Portfolio</a></button>
+                    <button class="btn"><a href="#connect">Connect with me</a></button><br>
+                    <span id="description">You can Explore more about my Portfolio and personal life experiences here ..
+                        .</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- -------------------------About------------------------------------ -->
+
+    <section id="about">
+        <div class="about-row">
+            <div class="abt-column-1">
+                <img src="/images/photo1.png">
+            </div>
+
+            <div class="abt-column-2">
+                <p class="subTitle">About Me</p>
+                <p id="abt-description">Hello, I am Sagar Chand. i am 20 years old. I'm driven through web designer who
+                    enjoys engaging in
+                    all steps of the product life-cycle. My goal is to create products, websites and applications that
+                    look beautiful and function intuitively for the users.</p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="openTab('education')">Education</p>
+                    <p class="tab-links" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                </div>
+
+                <div class="tab-content active-tab" id="education">
+                    <ul>
+                        <li>SEE</li>
+                        <span><i class="fa-solid fa-building-columns"></i>&nbsp; Shree gurans higher secondary
+                            schoool<br>
+                            <i class="fa-solid fa-location-dot"></i>&nbsp; location: &nbsp; Bardiya <br>
+                            <i class="fa-regular fa-calendar-days"></i>&nbsp; 2015-2017
+                        </span>
+                        <li>+2 (intermediate)</li>
+                        <span><i class="fa-solid fa-building-columns"></i>&nbsp; Triton International college <br>
+                            <i class="fa-solid fa-location-dot"></i>&nbsp; location:&nbsp; Subidhanagar, Kathmandu <br>
+                            <i class="fa-regular fa-calendar-days"></i>&nbsp; 2017-2019
+                        </span>
+                        <li>Bachelor</li>
+                        <span><i class="fa-solid fa-building-columns"></i>&nbsp; Kathmandu college of Technology <br>
+                            <i class="fa-solid fa-location-dot"></i>&nbsp; location:&nbsp; lokanthali, Bhaktapur <br>
+                            <i class="fa-regular fa-calendar-days"></i>&nbsp; 2019 (Running)
+                        </span>
+                    </ul>
+                </div>
+                <div class="tab-content" id="skills">
+                    <ul id="skills-content">
+                        <li><i class="fa-regular fa-hand-point-right"></i> &nbsp; HTML, CSS, JS, REACT</li>
+                        <li><i class="fa-regular fa-hand-point-right"></i> &nbsp; PYTHON</li>
+                        <li><i class="fa-regular fa-hand-point-right"></i> &nbsp; MY-SQL</li>
+                        <li><i class="fa-regular fa-hand-point-right"></i> &nbsp; MS-OFFICE</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul id="experience-content">
+                        <li><i class="fa-regular fa-calendar-days"></i> &nbsp; 2020<br><span><i
+                                    class="fa-regular fa-hand-point-right"></i> &nbsp; web design training at MDN
+                                institute</span></li>
+                        <li><i class="fa-regular fa-calendar-days"></i> &nbsp; 2021<br><span><i
+                                    class="fa-regular fa-hand-point-right"></i> &nbsp; UI/UX designer at verisk
+                                nepal</span></li>
+                        <li><i class="fa-regular fa-calendar-days"></i> &nbsp; 2022<br><span><i
+                                    class="fa-regular fa-hand-point-right"></i> &nbsp; full stack developer at deerwalk
+                                company</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------services-------------------------------- -->
+    <section id="services">
+        <div class="container">
+            <p class="subTitle">my services</p>
+            <div class="services-list">
+
+                <div class="services-list-content">
+                    <i class="fa-solid fa-code icon"></i>
+                    <h2 class="service-subtitle">web design</h2>
+                    <p>Lorem ipsum Praesentium ullam natus dolor quo corrupti perspiciatis expedita deleniti. Incidunt,
+                        neque eius doloribus voluptate deleniti impedit numquam beatae ex, laudantium possimus commodi
+                        accusantium? Reprehenderit voluptatum alias at earum ad aliquam.</p>
+                    <a href="https://www.interaction-design.org/literature/topics/web-design#:~:text=Web%20design%20is%20a%20multi,using%20CSS%20and%2For%20JavaScript."
+                        target="_blank">learn more</a>
+                </div>
+
+                <div class="services-list-content">
+                    <i class="fa-solid fa-crop icon"></i>
+                    <h2 class="service-subtitle">UI/ux design</h2>
+                    <p>Lorem ipsumPraesentium ullam natus dolor quo corrupti perspiciatis expedita deleniti. Incidunt,
+                        neque eius doloribus voluptate deleniti impedit numquam beatae ex, laudantium possimus commodi
+                        accusantium? Reprehenderit voluptatum alias at earum ad aliquam.</p>
+                    <a href="https://targetjobs.co.uk/careers-advice/job-descriptions/ux-designer-job-description"
+                        target="_blank">learn more</a>
+                </div>
+
+                <div class="services-list-content">
+                    <i class="fa-brands fa-connectdevelop icon"></i>
+                    <h2 class="service-subtitle">backend development</h2>
+                    <p>Lorem ipsumPraesentium ullam natus dolor quo corrupti perspiciatis expedita deleniti. Incidunt,
+                        neque eius doloribus voluptate deleniti impedit numquam beatae ex, laudantium possimus commodi
+                        accusantium? Reprehenderit voluptatum alias at earum ad aliquam.</p>
+                    <a href="https://www.talentlyft.com/en/resources/back-end-developer-job-description"
+                        target="_blank">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------My-works-------------------------- -->
+
+    <div id="my-works">
+        <div class="container">
+            <h1 class="sub-title">my works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social media apps</h3>
+                        <p>The app connects you to the people all around the world. People use social media to stay in
+                            touch and interact with friends, family and various communities.the range of web
+                            applications based on Web 2.0 technologies that enable users to socially interact with one
+                            another online.
+                            download from the play store</p>
+                        <a href="https://www.techtarget.com/whatis/definition/social-media#:~:text=Social%20media%20is%20a%20collective,friends%2C%20family%20and%20various%20communities."
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                        <h3>responsive web design</h3>
+                        <p>A responsive web design automatically adjusts for different-sized screens and viewports. With
+                            a responsive website, someone can browse your website from any device. As the user switches
+                            from their laptop to iPad, the website should automatically switch to accommodate for
+                            resolution, image size and scripting abilities.</p>
+                        <a href="https://web.dev/learn/design/?gclid=Cj0KCQiA1NebBhDDARIsAANiDD3aQwAODg3G6DzMdp0FDOgoBIlKdkSFMMxKQ5p_8_hSIc35dbqoLqYaApKtEALw_wcB"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                        <h3>online shopping apps</h3>
+                        <p>it allows consumers to directly buy goods or services from a seller over the Internet using a
+                            web browser or a mobile app. Consumers find a product of interest by visiting the website of
+                            the retailer directly or by searching among alternative vendors using a shopping search
+                            engine</p>
+                        <a href="https://marketbusinessnews.com/financial-glossary/online-shopping-definition-meaning/"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.techtarget.com/searchcloudcomputing/definition/web-application-development"
+                target="_blank" id="service-link"><button id="btn1">see more</button></a>
+        </div>
+    </div>
+
+    <!-- ------------------------------contact me---------------------------- -->
+
+    <div id="contact">
+        <div class="container-contact">
+            <div class="left-side">
+                <h2>Contact Me</h2>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWxwTMmpWQLlBvlWjSMvQvlxmlZNHKzQqXWVFZlmxvBRzxblmZxgLcCbBwzRjxpMdsVB"
+                    target="_blank">
+                    <p><i class="fa-regular fa-envelope" id="envelope"></i>&nbsp;&nbsp; chandsagar314@gmail.com</p>
+                </a>
+                <a href="tel:+9779800501332" id="tel-contact">
+                    <p><i class="fa-solid fa-phone"></i>&nbsp;&nbsp; 9800501332</p>
+                </a>
+                <a href="/images/sagar-chand-cv.pdf" target="_blank" class="btn_cv"><button>Download Cv</button></a>
+                <div class="social-media-icon" id="connect">
+                    <a href="https://www.facebook.com/sagar.chand.77964/" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sagarchand545/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/sagarch26110006" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://web.snapchat.com/sagarchand8353" target="_blank"><i
+                            class="fa-brands fa-snapchat"></i></a>
+                </div>
+            </div>
+            <div class="right-side">
+
+                <form  action="https://formspree.io/f/xwkzzevp" method="POST" target="_blank">
+                    <input type="text" name="username" placeholder="Name" required autocomplete="off" spellcheck="false">
+                    <input type="email" id="email" name="email" placeholder="abc@gmail.com" required autocomplete="off"
+                        spellcheck="false">
+                    <textarea name="massage" id="contact-msg" cols="50" rows="10" placeholder="Type Your Message Here"
+                        required autocomplete="off" spellcheck="false"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row1">
+            <div class="col">
+                <h1 id="logo2">Sagar.in</h1>
+                <p>subscribe my youtube channel "Easy Web Design Tutorial" to watch my new videos on web development and
+                    press the bell icon to get immediate notification of latest videos.</p>
+            </div>
+            <div class="col">
+                <h3>Address</h3>
+                <p><i class="fa-solid fa-location-pin"></i>&nbsp;&nbsp; Srijananagar, Bhaktapur <br><i
+                        class="fa-sharp fa-solid fa-road"></i>&nbsp; Araniko Highway 7720 <br><i
+                        class="fa-solid fa-flag"></i>&nbsp;&nbsp; PIN 305223 Bagmati Province, Nepal <br>
+                    <i class="fa-sharp fa-solid fa-envelope"></i>&nbsp;&nbsp; chandsagar314@gmail.com
+                </p>
+                <h4><i class="fa-solid fa-mobile"></i>&nbsp;&nbsp; 9800501332</h4>
+            </div>
+            <div class="col">
+                <h3>Links</h3>
+                <ul class="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#my-works">My works</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Social Media Links</h3>
+                <div id="col2">
+                    <a href="https://www.facebook.com/sagar.chand.77964/" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sagarchand545/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/sagarch26110006" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://web.snapchat.com/sagarchand8353" target="_blank"><i
+                            class="fa-brands fa-snapchat"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Sagar.in &copy; 2022 - All rights reserved &nbsp;<i class="fa-solid fa-heart"></i></p>
+    </footer>
+
+</body>
+
+<script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+    var tabContents = document.getElementsByClassName("tab-content");
+
+    function openTab(tablinks){
+        for(let tablink of tabLinks){
+            tablink.classList.remove('active-link');
+        }
+        for(let tabcontent of tabContents){
+            tabcontent.classList.remove('active-tab');
+        }
+        // console.log(event.currentTarget);
+        event.currentTarget.classList.add('active-link');
+        // console.log(document.getElementById(tablinks));
+        document.getElementById(tablinks).classList.add('active-tab');
+    }
+</script>
+
+</html>
