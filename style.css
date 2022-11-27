@@ -17,7 +17,7 @@ body {
 }
 
 #header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.525), rgba(0, 0, 0, 0.7)), url(/images/b.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.525), rgba(0, 0, 0, 0.7)), url("./images/b.jpg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ nav ul li a:hover {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
     font-family: sans-serif;
-    background: url(/images/back.png);
+    background: url("./images/back.png");
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: movBg 10s linear infinite alternate;
