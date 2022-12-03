@@ -792,15 +792,15 @@ hr{
         display: none;
         background: rgb(209, 14, 230);
         height: 95vh;
-        width: 60vw;
+        width: 100vw;
         margin-top: -1px;
         z-index: 100;
         padding-top: 20px;
         flex-direction: column;
-        margin-left: 110px;
+        margin-left: 0px;
     }
     .logo {
-       z-index: -33;
+       margin: 10px 0 0 10px;
     }
     .text-box {
         width: 400px;
