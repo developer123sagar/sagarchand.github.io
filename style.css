@@ -799,10 +799,10 @@ hr{
         flex-direction: column;
         margin-left: 110px;
     }
-    .logo{
+    .logo {
        display: none;
     }
-    .text-box{
+    .text-box {
         width: 400px;
         height: 300px;
         left: 10px;
@@ -916,7 +916,7 @@ hr{
     .fa-bars{
         display: block;
         font-size: 35px;
-        margin-left: 110px;
+        margin-left: 100px;
         margin-top: 4px;
     }
     .fa-xmark{
