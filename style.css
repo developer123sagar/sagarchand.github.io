@@ -36,13 +36,13 @@ nav {
     justify-content: space-between;
 }
 
-#logo::first-letter {
+.logo::first-letter {
     color: rgba(246, 7, 7, 0.772);
     font-weight: bold;
     font-size: 40px;
 }
 
-#logo {
+.logo {
     position: relative;
     left: 10px;
     top: -30px;
@@ -800,10 +800,7 @@ hr{
         margin-left: 130px;
     }
     .logo{
-        margin: 10px 0 0 -40px;
-        position: fixed;
-        top: 2px;
-        left: 50px;
+        font-size: 0px;
     }
     .text-box{
         width: 400px;
@@ -919,7 +916,7 @@ hr{
     .fa-bars{
         display: block;
         font-size: 35px;
-        margin-left: 140px;
+        margin-left: 100px;
         margin-top: 4px;
     }
     .fa-xmark{
