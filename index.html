@@ -29,12 +29,14 @@
             <div class="container">
                 <nav id="navbar">
                     <h1 id="logo">Sagar.in</h1>
+                    <span id="bar" onclick="openmenu()" ><i class="fa-solid fa-bars"></i></span>
                     <ul class="menu">
                         <li><a href="#header">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#my-works">My works</a></li>
                         <li><a href="#contact">Contact Me</a></li>
+                        <span id="mark" onclick="closemenu()"><i class="fa-solid fa-xmark"></i></span>
                     </ul>
                 </nav>
                 <div class="text-box">
@@ -306,6 +308,26 @@
         // console.log(document.getElementById(tablinks));
         document.getElementById(tablinks).classList.add('active-tab');
     }
+</script>
+    <script>
+    let bar = document.getElementById('bar');
+    let mark = document.getElementById('mark');
+    let menu = document.getElementsByClassName('menu');
+
+    let openmenu = () =>{
+        for(let x of menu){
+            x.style.display = "flex";
+        }
+        bar.style.display = "none";
+        
+    }
+    let closemenu = () =>{
+        for(let x of menu){
+            x.style.display = "none";
+        }
+        bar.style.display = "block";
+    }
+
 </script>
 
 </html>
