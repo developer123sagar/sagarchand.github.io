@@ -777,8 +777,8 @@ hr{
     text-align: center;
     margin-bottom: -18px;
 }
-.fa-bars, .fa-xmark{
-    font-size: 0;
+#bar, #mark{
+    display: none;
 }
 @media only screen and (max-width: 420px){
     *{
@@ -791,18 +791,16 @@ hr{
     .menu{
         display: none;
         background: rgb(209, 14, 230);
-        height: 100vh;
+        height: 95vh;
         width: 60vw;
-        margin-top: -10px;
+        margin-top: -1px;
         z-index: 100;
         padding-top: 20px;
         flex-direction: column;
-        margin-left: 130px;
+        margin-left: 110px;
     }
     .logo{
-        position: sticky;
-        top: 4px;
-        left: 3px;
+       display: none;
     }
     .text-box{
         width: 400px;
@@ -918,7 +916,7 @@ hr{
     .fa-bars{
         display: block;
         font-size: 35px;
-        margin-left: 140px;
+        margin-left: 110px;
         margin-top: 4px;
     }
     .fa-xmark{
