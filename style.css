@@ -792,12 +792,12 @@ hr{
         display: none;
         background: rgb(209, 14, 230);
         height: 100vh;
-        width: 50vw;
-        margin-top: -20px;
+        width: 60vw;
+        margin-top: -10px;
         z-index: 100;
         padding-top: 20px;
         flex-direction: column;
-        margin-left: 160px;
+        margin-left: 130px;
     }
     .logo{
         margin: 10px 0 0 -40px;
@@ -919,13 +919,13 @@ hr{
     .fa-bars{
         display: block;
         font-size: 35px;
-        margin-left: 260px;
+        margin-left: 220px;
         margin-top: 4px;
     }
     .fa-xmark{
         font-size: 35px;
-        margin-left: 70px;
-        margin-top: -10px;
+        margin-left: 50px;
+        margin-top: -4px;
         display: block;
     }
 }
