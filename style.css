@@ -918,7 +918,6 @@ hr{
         margin-right: -10px;
     }
     .fa-bars{
-        display: block;
         font-size: 35px;
         margin-left: -74px;
         margin-top: -6px;
@@ -927,6 +926,8 @@ hr{
         font-size: 35px;
         margin-left: 70px;
         margin-top: -10px;
+    }
+        #bar, #mark{
         display: block;
     }
 }
