@@ -780,7 +780,10 @@ hr{
 #bar, #mark{
     display: none;
 }
-@media only screen and (max-width: 420px){
+
+
+
+@media only screen and (max-width: 500px){
     *{
         margin: 0;
         padding: 0;
